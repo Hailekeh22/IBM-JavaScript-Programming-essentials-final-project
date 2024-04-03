@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    align-items: center;
+    background: linear-gradient(120deg, rgb(30, 62, 60),rgb(30, 62, 60) ,rgb(202, 194, 194));
+}
+
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    color: #fff;
+}
+
+.name{
+    font-size: 1.3rem;
+    color: #fff;
+    margin-left: .5rem;
+}
+
+#links a{
+    text-decoration: none;
+    margin-left: 1rem;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.searchinput{
+    width: 15rem;
+    border: none;
+    outline: none;
+}
+
+
+#search{
+    background-color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+}
+
