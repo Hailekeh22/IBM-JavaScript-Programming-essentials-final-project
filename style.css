@@ -301,3 +301,35 @@ form .inputval{
     border: none;
     cursor: pointer;
 }
+
+
+.Result{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 10px;
+    position: fixed;
+    right: 2%;
+    top: 15%;
+}
+
+.resultvalues{
+    width: 400px;
+    margin: 1rem 1rem;
+}
+
+.resultdescription{
+    color: #fff;
+}
+
+.resulttittle{
+    font-size: 1.2rem;
+}
+
+.resultimg{
+    width: 100%;
+    height: auto;
+}
+
+.resulttittle{
+    color: #fff;
+}
